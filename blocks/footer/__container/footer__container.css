@@ -1,0 +1,14 @@
+.footer__container {
+    display: flex;
+    gap: 18px;
+    flex-wrap: wrap;
+    padding-bottom: 24px;
+}
+  
+  @media screen and (max-width: 450px) {
+    .footer__container {
+      flex-direction: column;
+      gap: 32px;
+      padding-bottom: 48px;
+    }
+  }
