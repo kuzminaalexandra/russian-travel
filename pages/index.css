@@ -10,7 +10,6 @@
 @import url(../blocks/header/__lang-container/header__lang-container.css);
 @import url(../blocks/header/__lang-link/header__lang-link.css);
 @import url(../blocks/header/__lang-link/_active/header__lang-link_active.css);
-@import url(../blocks/header/__lang-link/_disabled/header__lang-link_disabled.css);
 
 /*Lead*/
 @import url(../blocks/lead/lead.css);
@@ -24,22 +23,23 @@
 @import url(../blocks/intro/__title/intro__title.css);
 @import url(../blocks/intro/__text/intro__text.css);
 @import url(../blocks/intro/__list/intro__list.css);
-@import url(../blocks/intro/__list/_span-assent/intro__list__span-accent.css);
+@import url(../blocks/intro/__list-bold/intro__list-bold.css);
 
 /*Photo__grid*/
 @import url(../blocks/photo-grid/photo-grid.css);
-@import url(../blocks/photo-grid/photo-grid__item/photo-grid__item.css);
+@import url(../blocks/photo-grid/__container/photo-grid__container.css);
+@import url(../blocks/photo-grid/__item/photo-grid__item.css);
 
 /*Places*/
-@import url(../blocks/places/plaсes.css);
-@import url(../blocks/places/place/place.css);
-@import url(../blocks/places/place/__title/place__title.css);
-@import url(../blocks/places/place/__website/place__website.css);
-@import url(../blocks/places/place/__url-heading/place__url-heading.css);
-@import url(../blocks/places/place/__link/place__link.css);
-@import url(../blocks/places/place/__image/place__image.css);
-@import url(../blocks/places/place/__article/place__article.css);
-@import url(../blocks/places/place/__paragraph/place__paragraph.css);
+@import url(../blocks/places/places.css);
+@import url(../blocks/place/place.css);
+@import url(../blocks/place/__title/place__title.css);
+@import url(../blocks/place/__website/place__website.css);
+@import url(../blocks/place/__url-heading/place__url-heading.css);
+@import url(../blocks/place/__link/place__link.css);
+@import url(../blocks/place/__image/place__image.css);
+@import url(../blocks/place/__article/place__article.css);
+@import url(../blocks/place/__paragraph/place__paragraph.css);
 
 /*Cover*/
 @import url(../blocks/cover/cover.css);
