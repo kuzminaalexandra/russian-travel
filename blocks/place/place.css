@@ -29,6 +29,12 @@
   .place {
     margin-bottom: 50px;
     grid-gap: 32px; 
+    grid-template-columns: 320px auto-fit;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .place {
     grid-template-columns: 320px;
   }
 }
