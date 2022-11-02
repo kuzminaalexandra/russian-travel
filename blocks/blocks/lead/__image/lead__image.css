@@ -1,0 +1,6 @@
+.lead__image {
+    position: relative;
+    display: flex;
+    object-fit: cover;
+    width: 100%;
+}
