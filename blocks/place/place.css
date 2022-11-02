@@ -26,6 +26,11 @@
   .place {
     grid-template-columns: repeat(2, 1fr);
     margin-bottom: 50px;
+<<<<<<< HEAD
+=======
+    grid-gap: 32px;
+    grid-template-columns: 320px auto-fit;
+>>>>>>> 1097461c1281296b12dfbcf12a755683954ac54e
   }
 }
 
