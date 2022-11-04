@@ -4,9 +4,3 @@
   min-width: 284px;
   max-width: 100%;
 }
-
-@media screen and (max-width: 450px) {
-  .photo-grid__item {
-    max-width: 100%;
-  }
-}
